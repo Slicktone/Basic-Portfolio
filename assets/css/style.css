@@ -1,6 +1,19 @@
+#navbar {
+	background-color: #fff;
+}
+#navbar h1 {
+	background-color: #777;
+	padding: 15px;
+}
 body {
-	background-color: #80a08f;
+	background-color: #4aaaa5;
+	background-image: "/assets/images/ignasi_pattern_s.png"
 }
 h1 {
-	font-color: red;
+	font-size: 40px;
+	color: #fff;
+}
+.nav {
+	background-color: #4aaaa5;
+	padding: 25px;
 }
