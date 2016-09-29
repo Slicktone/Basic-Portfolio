@@ -7,42 +7,77 @@
 	<!--All additional css goes afterwards -->
 	<link rel="stylesheet" text="text/css" href="assets/css/style.css">
 </head>
-<body>
-<!--Style the nav, show links to the right -->
-<nav id="navbar">
+	<nav id="navbar">				
 		<h1> Tony Clayton </h1>
-	<ul class="nav">
-		<li><a href="#">About</a></li>
-		<li><a href="#">Portfolio</a></li>
-		<li><a href="#">Contact</a></li>
-	</ul>
-</nav>
+		<ul>
+				<li><a href="index.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<body>
+<!--Contact Form Starts Here -->
 
-<section id="main">
-	<div class="contact">
-		<h1> Contact </h1>
+	<section id="main">
+		<div class="content">
+			<h1>	Contact Me	</h1>
+			<!-- You can style this hr tag (look it up) -->
+			<hr>
+			<br>
+
+			<div id="contact-form">
+				<form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail" />
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    
+    <div class="button">
+        <button type="submit">Send your message</button>
+    </div>
+</form>
+				
+			</div>
+		</div>
+	</section>
 	<br>
-	<hr>
+
+	<!--Float this section -->
+	<section id="aside">
+			<h3> Connect With Me </h3>
+		<div class="social">
+			<hr>
+			<br>
+				<ul>
+					<li>
+						<img src="assets/images/github icon.png" alt="placeholder image">
+					</li>
+					
+					<li>
+						<img src="assets/images/linkedIn.png" alt="placeholder image">
+					</li>
+				
+					<li>
+						<img src="assets/images/stack overflow.png" alt="placeholder image">
+					</li>
+				</ul>
+			
+		</div>
 	
-	<!-- Contact form here -->
-
-	</div>
-</section>
-
-<section id="aside">
-	<h3> Connect With Me </h3>
-		<hr>
-		<br>
-	<div class="social">
-				<img src="assets/images/github icon.png" alt="placeholder image">
-				<img src="assets/images/github icon.png" alt="placeholder image">
-				<img src="assets/images/github icon.png" alt="placeholder image">
-	</div>
-</section>
+	</section>
+<div class="push"></div>
+<!-- Begin Footer -->
 
 <footer>
-	<p> @ Copyright 2016 Tony Clayton </p>
+	<p class="copyright"> @Copyright 2016 Tony Clayton </p>
 </footer>
-
 </body>
 </html>
