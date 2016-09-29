@@ -94,7 +94,7 @@ a:hover {
 	padding: 10px;
 }
 .social hr {
-	
+
 }
 #aside h3 {
 	text-align: center;
@@ -115,3 +115,49 @@ footer {
 /*footer, .push {
 	height: 50px;
 }/*
+
+/*Contact Form */
+form {
+	/*Centering the Form */
+	margin: 0 auto;
+	width: 400px;
+	padding: 2em;
+}
+
+form div + div {
+	margin-top: 30px;
+}
+
+label {
+	/*Aligning the labels and to make them have same size */
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+}
+input, textarea {
+	font: 'Arial';
+	width: 300px;
+	height: 30px;
+	/*Giving the text fields same sizing */
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #777;
+	border-color: #777;
+}
+textarea {
+	vertical-align: top;
+	height: 200px;
+	resize: all;
+}
+.button {
+	padding-left: 90px;
+
+}
+button {
+	margin-left: .5em;
+	padding: 15px;
+	background-color: #4aaaa5;
+	border: 1px solid #777;
+	color: #fff;
+	font-size: 20px;
+}
